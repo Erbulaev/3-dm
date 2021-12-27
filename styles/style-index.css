@@ -77,7 +77,7 @@ header{
 .slider .prev, .slider .next {
     cursor: pointer;
     position: absolute;
-    top: 0;
+
     top: 50%;
     width: auto;
     margin-top: -22px;
@@ -237,6 +237,7 @@ footer{
     color: black;
     font-family: 'Nunito', sans-serif;
     letter-spacing: 0.20em;
+    cursor: pointer;
 
 }
 .btn-slider:hover{
@@ -248,4 +249,22 @@ h1{
     font-family: 'Nunito', sans-serif;
     padding-left: 25%;
     padding-bottom: 50px;
+}
+.wp-btn{
+    background-color: white;
+    border: none;
+    width: 105px;
+    height: 25px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+}
+.wp-btns{
+    padding-left: 25%;
+    padding-top: 5px;
+
+}
+.wp-btn:hover{
+    color: white;
+    background-color: black;
 }
