@@ -1,0 +1,16 @@
+:root{
+    --main-width:1120px;
+    --wrapper-width:900px;
+    --l-menu-width:200px;
+}
+.development{
+    display: flex;
+    max-width: var(--main-width);
+    margin:auto;
+    align-items: center;
+    justify-content: center;
+}
+.development-item p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 50px;
+}
