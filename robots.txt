@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
-Host:
-Sitemap: http:///sitemap.xml
+Host:3-dm.live
+Sitemap:http://3-dm.live/sitemap.xml
